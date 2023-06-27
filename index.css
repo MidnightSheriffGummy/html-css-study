@@ -14,15 +14,33 @@
 
 .item1 {
     background: #f9e4f4;
-    order: 3;
+    flex-grow: 1;
 }
 
 .item2 {
     background: #f0bae4;
-    order: 2;
+    flex-grow: 1;
 }
 
 .item3 {
     background: #e58ad3;
-    order: 1;
+    flex-grow: 1;
+    align-self: center;
+}
+
+.item4 {
+    background: #e0f6fa;
+    flex-grow: 1;
+    flex-shrink: 2;
+}
+
+.item5 {
+    background: #b2e8f2;
+    flex-grow: 1;
+}
+
+.item6 {
+    background: #80dae9;
+    flex-grow: 1;
+
 }
