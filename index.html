@@ -1,21 +1,117 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>JS Bin</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <title>Youtube 물고기</title>
+  <script src="https://kit.fontawesome.com/15ad1aff96.js" crossorigin="anonymous"></script>
+  </script>
+  <script src="main.js" defer></script>
 </head>
 
 <body>
+  <!---헤더-->
+  <header>
+    <div class="logo">
+      <i class="fa-solid fa-fish-fins"></i>
+      <span class="title">Youtube</span>
+    </div>
+    <div class="icon">
+      <i class="fa-regular fa-star"></i>
+      <i class="fa-regular fa-heart"></i>
 
-    <div class="container">
-        <div class="item item1">10</div>
-        <div class="item item2">20</div>
-        <div class="item item3">30</div>
+    </div>
+  </header>
+
+  <!----비디오 플레이어-->
+  <section class="player">
+    <video controls src="video/퍄노.mp4"></video>
+  </section>
 
 
+  <section class="info">
+    <div class="metadata">
 
+      <ul class="hashtags">
+        <li>#피아노</li>
+        <li>#서울</li>
+        <li>#쇼팽_발라드</li>
+      </ul>
+  </section>
+  <div class="titleAndButton">
+    <span class="title clamp">
+      서울_피아노 영상
+    </span>
+    <button class="moreBtn">
+      <!--아이콘 자리-->
+      <i class="fa-solid fa-star"></i>
+    </button>
+  </div>
+  <div class="views">
+    <span class="views">
+      1M view a 1 month ago
+    </span>
+  </div>
+  </div>
+  <div class="actions">
+    <li>
+      <button><i class="fa-solid fa-hippo"></i><span>1</span></button>
+    </li>
+
+    <li>
+      <button><i class="fa-solid fa-house"></i><span>2</span></button>
+    </li>
+
+    <li>
+      <button><i class="fa-solid fa-heart"></i><span>3</span></button>
+    </li>
+
+    <li>
+      <button><i class="fa-solid fa-poo"></i><span>4</span></button>
+    </li>
+
+    <li>
+      <button><i class="fa-regular fa-face-smile"></i><span>5</span></button>
+    </li>
+
+
+  </div>
+  <div class="channel">
+    <div class="metadata">
+      <img src="image/꽃츠.jpg" alt="" />
+      <div class="info">
+        <span class="name">무무콘
+        </span>
+
+        <span class="subscribers">초코비
+        </span>
+      </div>
+    </div>
+
+    <button class="subscribe">subscribe
+
+    </button>
+  </div>
+  <section class="UpNex">
+    <span class="title">Up Next</span>
+    <ul>
+      <li class="item"></li>
+      <img src="" alt="">
+      <div class="info">
+        <span class="title">111111111</span>
+        <span class="name">22222222222</span>
+        <span class="views">33333333</span>
+
+
+      </div>
+      <button class="moreButton"></button>
+
+      <li class="item"></li>
+      <li class="item"></li>
+    </ul>
+  </section>
 </body>
 
 </html>
